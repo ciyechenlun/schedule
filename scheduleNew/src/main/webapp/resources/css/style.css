@@ -1,0 +1,128 @@
+@charset "utf-8";
+.header{ width:100%; height:76px; background:#39aaf0;}
+.photo{ width:60px; height:60px; padding:8px 60px;}
+.white{ color:#fff;}
+.red{ color:#F00;}
+.header a{ color:#F00; text-decoration:none;}
+.point{height:13px; background:url(../images/tip_right.png) right no-repeat;}
+.point_left{width:15px; height:13px; background:url(../images/tip_left.png) left no-repeat;}
+.w_line{height:3px; width:auto; background:#FFF;}
+
+
+/*登录页面*/
+.login_body{background:url(../images/login_body_bg.png) no-repeat #f6f6f6;}
+.login_bg{margin:30px auto; width:502px;height:336px; background:url(../images/login_bg.png) no-repeat;}
+.login_input{width:426px; height:43px; line-height:43px; color:#b8b9c1; font-size:14px;padding:0 10px; border:0; background:url(../images/input_bg.png) no-repeat;}
+.l_botm{width:426px; margin-left:35px; height:38px; line-height:38px; font-size:14px; margin-top:25px;}
+.l_botm a{ color:#fff; text-decoration:none; margin-left:40px;}
+.l_botm a:hover{ text-decoration:underline;}
+.login_btn{width:176px; height:38px;border:0; background:url(../images/btn_login.png) no-repeat; cursor:pointer;}
+.login_title{height:40px; line-height:40px;margin-left:px; padding-top:40px; text-align:right;padding-right:40px; background:url(../images/login_title.png) bottom no-repeat;}
+
+
+/*左侧导航*/
+.menu{ position:fixed;width:218px; float:left; left:0;top:76px; bottom:35px; background: url(../images/leftbg_img.png) bottom no-repeat #f3f3f3; border:1px solid #e4e4e4;}
+.menu ul{ margin-left:18px; padding-top:20%;}
+.menuItem{ height:48px; line-height:45px; background:url(../images/menu_bg.png) no-repeat; text-align:center; color:#aaa; font-size:14px; font-weight:bold; margin-bottom:20px;}
+.menu li:active,.menu li.active{ color:#39aaf0; background:url(../images/arrow.png) right no-repeat; cursor:pointer;}
+.menu li.active a{color:#39aaf0; text-decoration:none;}
+.menu a{color:#aaa;text-decoration:none;}
+.menu li:hover{ color:#39aaf0; cursor:pointer;}
+
+.main .cont{ position:relative;height:auto; margin-left:220px;background:#fff;}
+/*本周日程*/
+.theweek input{ width:90px; height:28px; color:#fff; margin-right:25px; cursor:pointer;}
+.caltitle{height:30px; line-height:30px; font-size:24px; font-family:'微软雅黑';text-align:center; color:#676767;}
+.calendar1{width:1480px; margin-top:10px;}
+.wind{width:440px; height:auto; border:1px solid #e4e4e4; font-size:14px;}
+.wind ul label,.windowCont ul label{float:left; width:100px; text-align:right;}
+.wind ul li{ height:35px; line-height:35px;}
+.blue{ background:#f5fafd;}
+.back_wi {
+    background:white;
+}
+.btn_red{ background:#f03527; border:1px solid #d30f00;}
+.btn_release{background-image:url(/resources/images/warn.png);
+background-repeat:no-repeat;
+background-size:15px 15px;
+background-position:16px 6px;
+background-color:#007fcd;
+ border: 1px solid #0064a1;
+}
+.choose{float:left;width:300px;}
+.choose li{float:left;width:100px;}
+.choose li input{margin-right:5px; border:0;}
+/*本周日程表格14.6.20*/
+.calendar1 table th{text-align:center; background:#f5fafd;}
+.calendar1 table th,.calendar1 table td{ border:1px solid #e4e4e4;}
+.col_b{ color:#78939e;}
+.w9{ width:9%;}
+.w10{ width:7.3%;}
+.calendar1 table tr{ height:80px;}
+.calendar1 li a{ color:#222; text-decoration:none; text-align:left; display:block}
+.calendar1 li:hover{background:#ddf9d1;}
+.event_self{
+	background: none repeat scroll 0 0 #39AAF0;
+	border: 1px solid #E2E2E2;
+	color:#ffffff;
+	cursor:pointer;
+}
+.calendar1 div:hover{background:#29c383;}
+/*下周日程拟定*/
+.nextweek{height:40px;background:url(../images/tipdot.png) 0 8px no-repeat;padding-left:15px; font-size:14px;margin-left:50px; margin-right: 30px;}
+.nextweek span{font-size:16px; font-weight:bold;}
+.nextweek input{ width:90px; height:28px; color:#fff; margin-right:25px; cursor:pointer;margin-left: 25px;margin-top: -3px;}
+.chse{float:left;width:480px;}
+.chse li{float:left;width:70px;}
+.chse li input{margin-right:5px; border:0;}
+.w_cont{display:none;position:absolute;top:15%;left:20%;width:635px;height:440px;padding:16px;z-index:1002;overflow:auto;}
+.wHeader{height:39px; line-height:46px; font-size:14px; background:url(../images/wind_header_bg_b.png) no-repeat; text-align:center;}
+.wCont{height:auto; font-size:14px; background:#fff; border:1px solid #a9a9a9; border-top:0; padding:10px;}
+.wCont li{ margin-bottom:10px;}
+.wCont ul label{float:left; width:120px; text-align:right;}
+.wCont ul input,.wCont ul select{ width:330px; height:24px; line-height:24px; text-indent:5px; border:1px solid #c8c8c8; color:#000000;}
+.wCont ul textarea{width:330px; height:60px;border:1px solid #c8c8c8; color:#000000;}
+.w_btn input{margin-top:20px; margin-left:130px; margin-bottom:10px; width:90px; height:28px;color:#fff; cursor:pointer;}
+
+
+
+/*待办日程*/
+.mainbody{ padding:10px 20px;}
+.list_title{ height:60px; line-height:50px; color:#676767;padding:0 60px; font-size:24px; font-family:"微软雅黑"; text-align:center; border-bottom:1px solid #e4e4e4;}
+.list{ height:auto;}
+.list_title input{margin:10px 0 0; width:91px; height:30px; color:#fff; font-size:14px;cursor:pointer}
+.btn_add{ background:#ffa725; border:1px solid #cc7a00;}
+.list ul li{ float:left;}
+.list li{ width:205px; margin:20px;}
+.list li input{margin-top:20px; width:75px; height:23px; background:#fff; border:1px solid #e4e4e4; cursor:pointer;}
+.btn_edit{ margin-left:8px; color:#a2a2a2;}
+.btn_delete{ margin-right:8px; color:#ea1222;}
+.mtop{height:8px; background:#63da38; border:1px solid #54b92f;}
+.mcont{height:110px; background:#dcf9d1; border:1px solid #d4e3cf; border-top:0; padding:8px 5px;}
+.noMtop{height:8px; background:#a9a9a9; border:1px solid #999;}
+.noMcont{height:110px; background:#dedede; border:1px solid #bbb; border-top:0; padding:8px 5px;}
+
+
+/*帐号管理-新建用户*/
+.newuser_btn input{width:90px; height:28px; margin-top:10px; background:#29c383; border:1px solid #018c53; color:#fff; font-size:14px; cursor:pointer;}
+.gridCont{ margin-top:20px;}
+.gridCont th,.gridCont td{ text-align:center;border:1px solid #e4e4e4; font-size:14px;}
+.gridCont th{ height:50px; background:#f5fafd; color:#7992a1;}
+.gridCont td{ height:65px; color:#222;}
+.stop_btn{width:13px; height:18px; border:0; background:url(../images/stop.png) no-repeat; cursor:pointer;}
+.del_btn{width:16px; height:16px; border:0; margin:0 25px; background:url(../images/delete.png) no-repeat; cursor:pointer;}
+.edit_btn{width:21px; height:20px; border:0; background:url(../images/edit.png) no-repeat; cursor:pointer;}
+
+.black_overlay{display:none;position:absolute;top:0%;left:0%;width:100%;height:100%;background-color:white;z-index:1001;-moz-opacity:0.0;opacity:.00;filter:alpha(opacity=0);overflow: auto;}
+.window_content{display:none;position:absolute;top:15%;left:20%;width:491px;height:440px;padding:16px;z-index:1002;overflow:auto;}
+
+.windowHeader{height:40px; line-height:48px; font-size:14px; background:url(../images/wind_header_bg.png) no-repeat; text-align:center;}
+.windowCont li{ margin-bottom:10px;}
+.windowCont{height:auto; font-size:14px; background:#fff; border:1px solid #a9a9a9; border-top:0; padding:10px;}
+.windowCont ul input,.windowCont ul select{ width:220px; height:24px; line-height:24px; border:1px solid #c8c8c8; color:#000000;}
+.window_btn input{margin-top:20px; margin-left:90px; margin-bottom:10px; width:90px; height:28px;color:#fff; cursor:pointer;}
+.btn_cancel{ background:#29c383;border:1px solid #008c52;}
+.btn_safe{ background:#007fcd;border:1px solid #0064a1;}
+
+
+.footer{ position: fixed; bottom:0; width:100%; height:34px; line-height:34px; text-align:center; color:#787878; background:url(../images/footer_bg.png) repeat-x; border-top:1px solid #e4e4e4;}
